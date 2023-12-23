@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    bcrypt (3.1.20)
     bindex (0.8.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
@@ -87,6 +88,12 @@ GEM
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    devise (4.9.3)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
     erubi (1.12.0)
     ffi (1.16.3)
     globalid (1.2.1)
@@ -130,6 +137,7 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.15.5-arm64-darwin)
       racc (~> 1.4)
+    orm_adapter (0.5.0)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -174,6 +182,9 @@ GEM
     regexp_parser (2.8.3)
     reline (0.4.1)
       io-console (~> 0.5)
+    responders (3.1.1)
+      actionpack (>= 5.2)
+      railties (>= 5.2)
     rexml (3.2.6)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -211,6 +222,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    warden (1.2.9)
+      rack (>= 2.0.9)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -231,6 +244,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  devise
   importmap-rails
   jbuilder
   puma (~> 5.0)
