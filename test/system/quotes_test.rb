@@ -1,6 +1,11 @@
 require "application_system_test_case"
 
 class QuotesTest < ApplicationSystemTestCase
+  setup do
+    # We need to order quote as well in the system tests
+    @quote = Quote.ordered.first
+  end
+
   test "Creating a new quote" do
     # When we visit the Quotes#index page
     # we expect to see a title with the text "Quotes"
