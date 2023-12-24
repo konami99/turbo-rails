@@ -46,5 +46,6 @@ class LineItemDatesTest < ApplicationSystemTestCase
     end
   
     assert_no_text I18n.l(Date.current, format: :long)
+    assert_text number_to_currency(@quote.total_price)
   end
 end
