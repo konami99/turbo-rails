@@ -1,6 +1,8 @@
 require "application_system_test_case"
 
 class LineItemDatesTest < ApplicationSystemTestCase
+  include ActionView::Helpers::NumberHelper
+
   setup do
     login_as users(:accountant)
 
