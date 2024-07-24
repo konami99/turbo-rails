@@ -3,7 +3,7 @@
 
 <img width="1365" alt="Screen Shot 2023-12-25 at 12 20 47 pm" src="https://github.com/konami99/turbo-rails/assets/166879/1c6a2f10-8877-45dc-b5a8-d11b99b0bb04">
 
-If you found this repo useful, please consider [sponsoring](https://github.com/sponsors/alexandreruban?frequency=one-time) the original author of the tutorial. 
+If you find this repo useful, please consider [sponsoring](https://github.com/sponsors/alexandreruban?frequency=one-time) the original author. 
 
 # Setup
 ```
@@ -16,6 +16,18 @@ rails s
 rails test test/system/quotes_test.rb
 rails test:all
 ```
+
+# How to sign into the app
+Logins can be found in `test/fixtures/users.yml`
+
+<img width="692" alt="Screenshot 2024-07-24 at 11 19 04 AM" src="https://github.com/user-attachments/assets/846a91e5-81fc-46bc-b2c8-ccd9010f2b91">
+
+# Turbo Morph
+Turbo Morph is a new feature in Rails 8. It offers more rapid development time, but its responsiveness is slower than Turbo Frame and Turbo Stream. Once the author has added the new content, I'll be updating this repo as well.
+
+<img width="1431" alt="Screenshot 2024-07-24 at 10 55 22 AM" src="https://github.com/user-attachments/assets/b1b5ad95-15b8-4399-9ec4-52481dac4e5b">
+<img width="616" alt="Screenshot 2024-07-24 at 11 26 19 AM" src="https://github.com/user-attachments/assets/d09f5bbc-b44a-4139-84e2-1670195ab64b">
+
 
 # Other Hotwire learning resources
 
