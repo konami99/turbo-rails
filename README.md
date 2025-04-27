@@ -37,6 +37,6 @@ https://blog.kiprosh.com/broadcasting-your-turbo-streams-as-you-want-them-in-rai
 
 Don’t let setup issues cost you the job - get the pre-configured Rails + React template today and hit the ground running with a ready-to-go Rails + React + TypeScript environment. Perfect for interviews, coding challenges, or launching your next SaaS idea.
 
-[![image](https://github.com/user-attachments/assets/4a2c4c3b-5081-4e70-bd84-227596ebf668)](https://buymeacoffee.com/richardchou89/e/399735)
-
-
+<a href="https://buymeacoffee.com/richardchou89/e/399735" target="_blank">
+<img src="https://github.com/user-attachments/assets/4a2c4c3b-5081-4e70-bd84-227596ebf668" alt="React + React integration template" width="600"/>
+</a>
